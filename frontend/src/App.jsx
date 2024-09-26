@@ -7,15 +7,7 @@ import './App.css'
 import Homepage from './Homepage/Homepage.jsx';
 
 
-function App() {
-  
 
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import ProductDetails from "./pages/ProductDetails.jsx"; // Corrected import
-import Footer from "./constants/Footer.jsx";
-import Header from "./constants/Header.jsx";
-import Review from "./pages/Review.jsx";
 
 const App = () => {
   return (
@@ -29,14 +21,6 @@ const App = () => {
     </Router>
   )
 }
-    <div>
-      <Header />
-      <ProductDetails />
-      <Review />
-      <Footer />
-      
-    </div>
-  );
-};
+  
 
 export default App;
