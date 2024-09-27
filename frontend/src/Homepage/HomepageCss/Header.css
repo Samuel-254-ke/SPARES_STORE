@@ -1,0 +1,36 @@
+/* Set the background color and text color for the navbar */
+.navbar.navbar-dark {
+    background-color: #88293b !important; /* Dark background color */
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .nav-link {
+    color: #ffffff !important; /* White text color */
+}
+
+/* Change the color of the links on hover */
+.navbar-dark .nav-link:hover {
+    color: #f8f9fa !important; /* Light gray color on hover */
+}
+
+/* Optional: Add some padding to the navbar links */
+.nav-link {
+    padding: 0.5rem 1rem;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .nav-link {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .navbar {
+        padding: 1rem 2rem;
+    }}

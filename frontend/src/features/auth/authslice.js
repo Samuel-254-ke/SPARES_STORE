@@ -7,11 +7,7 @@ export const loginAsync = createAsyncThunk('auth/login', async ({ email, passwor
   return response.data; // Assuming the API returns user data
 });
 
-// Async action for registration
-export const registerAsync = createAsyncThunk('auth/register', async ({ name, email, password }) => {
-  const response = await axios.post('http://yourapi.com/register', { name, email, password });
-  return response.data; // Assuming the API returns user data or a success message
-});
+
 
 const authSlice = createSlice({
   name: 'auth',
